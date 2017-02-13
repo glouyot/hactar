@@ -1,0 +1,7 @@
+language: c
+os: osx
+install: make get-deps
+compiler:
+    - clang
+    - gcc
+script: make -C tests test
